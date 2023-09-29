@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lbCocheMain"
+        android:layout_width="203dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:gravity="center"
+        android:text="Coches: 0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCrearCocheMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Crear Coche"
+        app:icon="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:id="@+id/lbMotoMain"
+        android:layout_width="235dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:gravity="center"
+        android:text="Motos: 0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCrearMotoMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Crear Moto" />
+
+    <TextView
+        android:id="@+id/lbBiciMain"
+        android:layout_width="203dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="80dp"
+        android:gravity="center"
+        android:text="Bicis: 0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCrearBiciMain"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Crear Bici" />
+
+</LinearLayout>
