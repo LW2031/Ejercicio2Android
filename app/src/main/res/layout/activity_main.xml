@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -14,8 +15,10 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="80dp"
+        android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="Coches: 0"
+        android:textColor="@color/design_default_color_primary"
         android:textSize="20sp" />
 
     <Button
@@ -24,6 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="Crear Coche"
+        app:cornerRadius="10dp"
         app:icon="@android:drawable/ic_input_add" />
 
     <TextView
@@ -33,8 +37,10 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="80dp"
+        android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="Motos: 0"
+        android:textColor="@color/design_default_color_primary"
         android:textSize="20sp" />
 
     <Button
@@ -42,7 +48,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="Crear Moto" />
+        android:text="Crear Moto"
+        app:cornerRadius="10dp"
+        app:icon="@android:drawable/ic_input_add" />
 
     <TextView
         android:id="@+id/lbBiciMain"
@@ -51,15 +59,20 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="80dp"
+        android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="Bicis: 0"
+        android:textColor="@color/design_default_color_primary"
+        android:textColorLink="@color/design_default_color_primary"
         android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnCrearBiciMain"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Crear Bici" />
+        android:text="Crear Bici"
+        app:cornerRadius="10dp"
+        app:icon="@android:drawable/ic_input_add" />
 
 </LinearLayout>
